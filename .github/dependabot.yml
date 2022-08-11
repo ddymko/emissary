@@ -5,3 +5,34 @@ updates:
   schedule:
     interval: daily
   open-pull-requests-limit: 100
+- package-ecosystem: gomod
+  directory: "/tools/src/yq/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 100
+- package-ecosystem: gomod
+  directory: "/tools/src/chart-doc-gen"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 100  
+- package-ecosystem: gomod
+  directory: "/tools/src/crane"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 100  
+- package-ecosystem: gomod
+  directory: "/tools/src/ct"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 100  
+- package-ecosystem: gomod
+  directory: "/tools/src/golangci-lint"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 100  
+- package-ecosystem: gomod
+  directory: "/tools/src/ocibuild"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 100  
+  
