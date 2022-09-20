@@ -95,7 +95,7 @@ require (
 	github.com/google/go-cmp v0.5.7
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/websocket v1.4.2
-	github.com/hashicorp/consul/api v1.12.0
+	github.com/hashicorp/consul/api v1.15.1
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/pkg/errors v0.9.1
 	github.com/pmezard/go-difflib v1.0.0
@@ -106,7 +106,7 @@ require (
 	github.com/stretchr/testify v1.8.0
 	go.opentelemetry.io/proto/otlp v0.7.0
 	golang.org/x/mod v0.5.1
-	golang.org/x/sys v0.0.0-20220128215802-99c3d69c2c27
+	golang.org/x/sys v0.0.0-20220412211240-33da011f77ad
 	google.golang.org/genproto v0.0.0-20220204002441-d6cc3cc0770e
 	google.golang.org/grpc v1.44.0
 	google.golang.org/protobuf v1.27.1
