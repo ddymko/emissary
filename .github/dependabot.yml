@@ -7,12 +7,6 @@ updates:
     open-pull-requests-limit: 10
 
   - package-ecosystem: gomod
-    directory: "/tools/src/yq/"
-    schedule:
-      interval: daily
-    open-pull-requests-limit: 10
-
-  - package-ecosystem: gomod
     directory: "/tools/src/chart-doc-gen"
     schedule:
       interval: daily
@@ -38,6 +32,64 @@ updates:
 
   - package-ecosystem: gomod
     directory: "/tools/src/ocibuild"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: gomod
+    directory: "/tools/src/yq"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+  - package-ecosystem: pip
+    directory: "/docker/test-auth"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: pip
+    directory: "/docker/test-shadow"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: pip
+    directory: "/docker/test-stats"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: pip
+    directory: "/python"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+  - package-ecosystem: docker
+    directory: "/docker/base-python"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: docker
+    directory: "/docker/test-auth"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: docker
+    directory: "/docker/test-http"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: docker
+    directory: "/docker/test-shadow"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: docker
+    directory: "/docker/test-stats"
     schedule:
       interval: daily
     open-pull-requests-limit: 10
